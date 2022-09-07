@@ -51,7 +51,7 @@
           - Repository sourcecode documentation
   -->
   ***
-  ### [Changelog][CHANGELOG]&nbsp;&bull;&nbsp;[Roadmap][ROADMAP]&nbsp;&bull;&nbsp;[Manual][MANUAL]&nbsp;&bull;&nbsp;[Sourcecode documentation][SOURCECODE-DOCUMENTATION]
+  ### [Changelog][CHANGELOG]&nbsp;&bull;&nbsp;[Roadmap][ROADMAP]&nbsp;&bull;&nbsp;[Manual][MANUAL-HOME]&nbsp;&bull;&nbsp;[Sourcecode documentation][SOURCECODE-DOCUMENTATION]
   ***
 
 </div>
@@ -105,7 +105,7 @@ The good news is that you can extend myAvatar™ functionality via Netsmart's my
 
 # The Abatab Manual
 
-This README is short and sweet because the [Abatab Manual][MANUAL], which is updated with each release, contains everything you need to know about Abatab.
+This README is short and sweet because the [Abatab Manual][MANUAL-HOME], which is updated with each release, contains everything you need to know about Abatab.
 
 <!-- REFERENCE LINKS -->
 
@@ -139,7 +139,7 @@ This README is short and sweet because the [Abatab Manual][MANUAL], which is upd
 <!-- README MENU -->
 [CHANGELOG]: ./Documentation/CHANGELOG.md
 [ROADMAP]: ./Documentation/ROADMAP.md
-[MANUAL]: ./Documentation/Manual/Manual.md
+[MANUAL-HOME]: ./Documentation/Manual/Manual.md
 [SOURCECODE-DOCUMENTATION]: ./Documentation/Sourcecode/Sourcecode.md
 
 <!-- README TABLE OF CONTENTS -->

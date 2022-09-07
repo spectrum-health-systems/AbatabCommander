@@ -1,36 +1,24 @@
-<!-- A generic README template for a GitHub repository manual [b220829.094029]
-     - All URLs should use reference-links added at the end of this documentation.
--->
+<!-- A generic MANUAL.md template for a GitHub repository [b220907] -->
+<!-- Last updated: 9.7.22 -->
 
-<!-- BREADCRUMBS
-     - Documentation breadcrumbs.
-     - This should also be at the end of the documentation as well.
--->
-> [Abatab][REPOSITORY-URL] > Manual
+<!-- DOCUMENTATION BREADCRUMBS -->
+> [Abatab Commander][CURRENT-BRANCH-URL] > Manual: Home
+***
 
 <br>
 <div align="center">
 
-  <!-- PROJECT LOGO
-      - Project logo should be located at "./.github/Logos/ProjectLogo.png".
-      - Short description of the project.
-  -->
+  <!-- REPOSITORY LOGO -->
+  [![REPOSITORY-LOGO][REPOSITORY-LOGO]][CURRENT-BRANCH-URL]
 
-  Last updated: September 6, 2022
+  ### Home&nbsp;&bull;&nbsp;[Getting started][MANUAL-GETTING-STARTED]&nbsp;&bull;&nbsp;[Using][MANUAL-USING]&nbsp;&bull;&nbsp;[Additional information][MANUAL-ADDITIONAL-INFORMATION]  
 
-  ![REPOSITORY-LOGO][REPOSITORY-LOGO]
-  # Abatab Manual
+</div>
 
-  <h2>
+<br>
+<br>
 
-  Home&nbsp;&bull;&nbsp;[Getting started][MANUAL-GETTING-STARTED]&nbsp;&bull;&nbsp;[Hosting][MANUAL-HOSTING]&nbsp;&bull;&nbsp;[Importing][MANUAL-IMPORTING]&nbsp;&bull;&nbsp;[Using][MANUAL-USING]&nbsp;&bull;&nbsp;[ScriptLink][MANUAL-SCRIPTLINK]&nbsp;&bull;&nbsp;[Additional information][MANUAL-ADDITIONAL-INFORMATION]
-
-  </h2>
-  </div>
-
-***
-
-# About Abatab
+# About
 
 [Netsmart's myAvatar™][MYAVATAR] is a behavioral health EHR that offers a recovery-focused suite of solutions that leverage real-time analytics and clinical decision support to drive value-based care.
 
@@ -62,33 +50,22 @@ This manual is updated with each release, and contains everything you need to kn
 
 Ready to implement Abatab in your environment? [Let's get started!][MANUAL-GETTING-STARTED]
 
-<!-- REFERENCE LINKS: REPOSITORY
-     These reference links should be standard across all project documentation.
--->
-[REPOSITORY-URL]: https://github.com/spectrum-health-systems/Abatab
-[REPOSITORY-LOGO]: ../../.github/Logos/ProjectLogo.png
-
-<!-- REFERENCE LINKS: REPOSITORY DOCUMENTATION
-     These reference links should be standard across all project documentation.
--->
-[MANUAL]: ./Documentation/Manual/Manual.md
-[MANUAL-GETTING-STARTED]: ./Documentation/Manual/Manual-Getting-Started.md
-[MANUAL-HOSTING]: ./Documentation/Manual/Manual-Hosting-Abatab.md
-[MANUAL-IMPORTING]: ./Documentation/Manual/Manual-Importing-Abatab.md
-[MANUAL-USING]: ./Documentation/Manual/Manual-Using-Abatab.md
-[MANUAL-SCRIPTLINK]: ./Documentation/Manual/Manual-ScriptLink.md
-[MANUAL-ADDITIONAL-INFORMATION]: ./Documentation/Manual/Manual-Additional-Information.md
-
-<!-- REFERENCE LINKS: DOCUMENT SPECIFIC
-     These reference links should be standard across all project documentation.
--->
-[MYAVATAR]: https://www.ntst.com/Solutions-and-Services/Offerings/myAvatar
-
-<!-- BREADCRUMBS
-     - Documentation breadcrumbs. This should also be at the start of the documentation as well.
--->
 <br>
 
+<!-- DOCUMENTATION BREADCRUMBS -->
 ***
+> [Abatab Commander][CURRENT-BRANCH-URL] > Manual: Home
 
-> [Abatab][REPOSITORY-URL] > Manual
+<!-- REFERENCE LINKS: REPOSITORY -->
+[REPOSITORY-URL]: https://github.com/spectrum-health-systems/Abatab
+[CURRENT-BRANCH-URL]: ../../README.md
+[REPOSITORY-LOGO]: ../../.github/Logos/RepositoryLogo.png
+
+<!-- REFERENCE LINKS: REPOSITORY DOCUMENTATION -->
+[MANUAL-HOME]: Manual.md
+[MANUAL-GETTING-STARTED]: ./Manual-Getting-Started.md
+[MANUAL-USING]: ./Manual-Using-Abatab.md
+[MANUAL-ADDITIONAL-INFORMATION]: ./Manual-Additional-Information.md
+
+<!-- REFERENCE LINKS: DOCUMENT SPECIFIC -->
+[MYAVATAR]: https://www.ntst.com/Solutions-and-Services/Offerings/myAvatar
