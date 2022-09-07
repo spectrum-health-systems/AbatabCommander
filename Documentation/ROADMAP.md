@@ -1,39 +1,37 @@
-<!-- A generic template for an ROADMAP document [b220829.094029]
-     - All URLs should use reference-links added at the end of this documentation.
--->
+<!-- A generic ROADMAP.md template for a GitHub repository [b220907] -->
+<!-- Last updated: 9.7.22 -->
 
-<!-- BREADCRUMBS
-     - Documentation breadcrumbs.
-     - This should also be at the end of the documentation as well.
--->
-> [Abatab][REPOSITORY-URL] > Roadmap
-
+<!-- DOCUMENTATION BREADCRUMBS -->
+> [Abatab Commander][CURRENT-BRANCH-URL] > Roadmap
 ***
 
 <br>
 <div align="center">
 
-  <!-- PROJECT LOGO
-      - Project logo should be located at "./.github/Logos/ProjectLogo.png".
-      - Short description of the project.
-  -->
-  ![REPOSITORY-LOGO][REPOSITORY-LOGO]
+  <!-- REPOSITORY LOGO -->
+  [![REPOSITORY-LOGO][REPOSITORY-LOGO]][CURRENT-BRANCH-URL]
 
 </div>
 
 # Roadmap
 
-<!-- BREADCRUMBS
-     - Documentation breadcrumbs. This should also be at the start of the documentation as well.
--->
+## New functionality
+
+* [ ] New thing #1
+* [ ] New thing #2
+
+## Fixes
+
+* [ ] Fix #1
+* [ ] Fix #2
+
 <br>
 
+<!-- DOCUMENTATION BREADCRUMBS -->
 ***
+> [Abatab Commander][CURRENT-BRANCH-URL] > Roadmap
 
-> [Abatab][REPOSITORY-URL] > Roadmap
-
-<!-- REFERENCE LINKS: STANDARD
-     These reference links should be standard across all project documentation.
--->
+<!-- REFERENCE LINKS: REPOSITORY -->
 [REPOSITORY-URL]: https://github.com/spectrum-health-systems/Abatab
-[REPOSITORY-LOGO]: ../.github/Logos/ProjectLogo.png
+[CURRENT-BRANCH-URL]: ../README.md
+[REPOSITORY-LOGO]: ../.github/Logos/RepositoryLogo.png

@@ -1,39 +1,32 @@
-<!-- A generic template for an CHANGELOG document [b220829.094029]
-     - All URLs should use reference-links added at the end of this documentation.
--->
+<!-- A generic CHANGELOG.md template for a GitHub repository [b220907] -->
+<!-- Last updated: 9.7.22 -->
 
-<!-- BREADCRUMBS
-     - Documentation breadcrumbs.
-     - This should also be at the end of the documentation as well.
--->
-> [Abatab][REPOSITORY-URL] > Changelog
-
+<!-- DOCUMENTATION BREADCRUMBS -->
+> [Abatab Commander][CURRENT-BRANCH-URL] > Changelog
 ***
 
 <br>
 <div align="center">
 
-  <!-- PROJECT LOGO
-      - Project logo should be located at "./.github/Logos/ProjectLogo.png".
-      - Short description of the project.
-  -->
-  ![REPOSITORY-LOGO][REPOSITORY-LOGO]
+  <!-- REPOSITORY LOGO -->
+  [![REPOSITORY-LOGO][REPOSITORY-LOGO]][CURRENT-BRANCH-URL]
 
 </div>
 
-# vMajor.Minor.Patch-YYMMDD.HHMMSS-<descriptor>
+# Changelog
 
-<!-- BREADCRUMBS
-     - Documentation breadcrumbs. This should also be at the start of the documentation as well.
--->
+## v0.0.0-YYMMDD.HHMMSS-<descriptor>
+
+* `NEW` Thing
+* `FIX` Thing
+
 <br>
 
+<!-- DOCUMENTATION BREADCRUMBS -->
 ***
+> [Abatab Commander][CURRENT-BRANCH-URL] > Changelog
 
-> [Abatab][REPOSITORY-URL] > Changelog
-
-<!-- REFERENCE LINKS: STANDARD
-     These reference links should be standard across all project documentation.
--->
+<!-- REFERENCE LINKS: REPOSITORY -->
 [REPOSITORY-URL]: https://github.com/spectrum-health-systems/Abatab
-[REPOSITORY-LOGO]: ../.github/Logos/ProjectLogo.png
+[CURRENT-BRANCH-URL]: ../README.md
+[REPOSITORY-LOGO]: ../.github/Logos/RepositoryLogo.png
