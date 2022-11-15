@@ -1,17 +1,13 @@
-<!-- A generic CODE-OF-CONDUCT.md template for a GitHub repository [b220907] -->
-<!-- Last updated: 9.7.22 -->
+> [Abatab][AbatabCurrentBranchUrl] > Code of Conduct
 
-<!-- DOCUMENTATION BREADCRUMBS -->
-> [Abatab Commander][CURRENT-BRANCH-URL] > Code of Conduct
 ***
 
 <br>
 <div align="center">
 
-  <!-- REPOSITORY LOGO -->
-  [![REPOSITORY-LOGO][REPOSITORY-LOGO]][CURRENT-BRANCH-URL]
+  [![AbatabLogo][AbatabLogo]][AbatabCurrentBranchUrl]
 
-  This project is released with a Contributor Code of Conduct, adapted from the [Contributor Covenant][CONTRIBUTOR-COVENENT-HOMEPAGE]. By participating in this project you agree to abide by its terms.
+  This project is released with a Contributor Code of Conduct, adapted from the [Contributor Covenant][ContributorCovenentUrl]. By participating in this project you agree to abide by its terms.
 
 </div>
 
@@ -85,9 +81,9 @@ Community leaders will follow these Community Impact Guidelines in determining t
 * **Consequence**: A permanent ban from any sort of public interaction within the project community.
 
 ## Attribution
-This Code of Conduct is adapted from the [Contributor Covenant][CONTRIBUTOR-COVENENT-HOMEPAGE], version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
+This Code of Conduct is adapted from the [Contributor Covenant][ContributorCovenentUrl], version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
 
-Community Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder][MOZILLA-ENFORCEMENT-LADDER].
+Community Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder][MozillaEnforcementLadderUrl].
 
 For answers to common questions about this code of conduct, see the FAQ at
 https://www.contributor-covenant.org/faq.
@@ -96,16 +92,10 @@ Translations are available at https://www.contributor-covenant.org/translations.
 
 <br>
 
-<!-- DOCUMENTATION BREADCRUMBS -->
-***
-> [Abatab Commander][CURRENT-BRANCH-URL] > Code of Conduct
+> [Abatab][AbatabCurrentBranchUrl] > Code of Conduct
 
-<!-- REFERENCE LINKS: REPOSITORY -->
-[REPOSITORY-URL]: https://github.com/spectrum-health-systems/Abatab
-[CURRENT-BRANCH-URL]: ../../../README.md
-[REPOSITORY-LOGO]: ../../Logos/RepositoryLogo.png
-
-<!-- REFERENCE LINKS: CODE OF CONDUCT -->
-[CONTRIBUTOR-COVENENT-HOMEPAGE]: https://www.contributor-covenant.org/
-[CONTRIBUTOR-COVENENT-V2]: https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
-[MOZILLA-ENFORCEMENT-LADDER]: https://github.com/mozilla/diversity
+<!-- REFERENCE LINKS -->
+[AbatabCurrentBranchUrl]: ../../../README.md
+[AbatabLogo]: ../../Logos/RepositoryLogo.png
+[ContributorCovenentUrl]: https://www.contributor-covenant.org/
+[MozillaEnforcementLadderUrl]: https://github.com/mozilla/diversity
