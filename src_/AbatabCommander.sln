@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbatabCommander", "AbatabCommander.csproj", "{EEA75FA1-EAC8-4D05-A202-A997413FFC36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdParty", "ThirdParty", "{F6EB3EF0-E213-440D-929C-6513C272E975}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocFX", "ThirdParty\DocFX\DocFX.csproj", "{F13365BE-B3C8-4D2E-B35D-A169CD6850D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A34E4DA5-40AD-4A91-A7F0-CF9E2454E965}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{95BEAB85-7015-4C8D-86BD-7C4319FFB1B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{B37D0351-1ED4-438B-9FA9-C0AAC02B4630}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEA75FA1-EAC8-4D05-A202-A997413FFC36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA75FA1-EAC8-4D05-A202-A997413FFC36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA75FA1-EAC8-4D05-A202-A997413FFC36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA75FA1-EAC8-4D05-A202-A997413FFC36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13365BE-B3C8-4D2E-B35D-A169CD6850D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13365BE-B3C8-4D2E-B35D-A169CD6850D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13365BE-B3C8-4D2E-B35D-A169CD6850D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13365BE-B3C8-4D2E-B35D-A169CD6850D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F13365BE-B3C8-4D2E-B35D-A169CD6850D3} = {F6EB3EF0-E213-440D-929C-6513C272E975}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B958D84-EC99-450E-BE44-001E7752A937}
+	EndGlobalSection
+EndGlobal
