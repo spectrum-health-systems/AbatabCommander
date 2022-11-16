@@ -8,7 +8,54 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="AppData\" />
+    <None Remove="AppData\resource\controls\checkmark.png" />
+    <None Remove="AppData\resource\controls\github.png" />
+    <None Remove="AppData\resource\controls\performance-green.png" />
+    <None Remove="AppData\resource\controls\performance-red.png" />
+    <None Remove="AppData\resource\controls\settings.png" />
+    <None Remove="AppData\resource\controls\switch-off.png" />
+    <None Remove="AppData\resource\controls\switch-on.png" />
+    <None Remove="AppData\resource\controls\toggle-off.png" />
+    <None Remove="AppData\resource\controls\toggle-on.png" />
+    <None Remove="AppData\resource\controls\update-available-100.png" />
+    <None Remove="AppData\resource\controls\update.png" />
+    <None Remove="AppData\resource\logo\RepositoryLogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="AppData\resource\controls\checkmark.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="AppData\resource\controls\github.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="AppData\resource\controls\performance-green.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="AppData\resource\controls\performance-red.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="AppData\resource\controls\settings.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="AppData\resource\controls\switch-off.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="AppData\resource\controls\switch-on.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="AppData\resource\controls\toggle-off.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="AppData\resource\controls\toggle-on.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="AppData\resource\controls\update.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="AppData\resource\logo\RepositoryLogo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>
