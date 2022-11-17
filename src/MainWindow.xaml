@@ -9,6 +9,7 @@
         Height="720"
         mc:Ignorable="d">
     <Grid>
+
         <!--  UPPER LEFT  -->
         <!--  LOGO  -->
         <Image x:Name="imgAbatabCommanderLogo"
@@ -19,9 +20,19 @@
                VerticalAlignment="Top"
                Source="/AppData/resource/logo/RepositoryLogo.png" />
 
+        <Label x:Name="lblAvatarEnvironment"
+               Margin="145,10,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Content="LIVE" />
+
+
+
+
         <!--  UPPER RIGHT  -->
         <Rectangle x:Name="rtglUpperRightExterior"
-                   Width="823"
+                   Grid.ColumnSpan="2"
+                   Width="858"
                    Height="190"
                    Margin="396,10,0,0"
                    HorizontalAlignment="Left"
@@ -29,12 +40,11 @@
                    RadiusX="10"
                    RadiusY="10"
                    Stroke="Black"
-                   StrokeThickness="2" />
-
-        <!--  UPPER RIGHT  -->
+                   StrokeThickness="1" />
 
         <!--  LOWER LEFT  -->
-        <Rectangle Width="381"
+        <Rectangle x:Name="rtglLowerLeftExterior"
+                   Width="381"
                    Height="465"
                    Margin="10,205,0,0"
                    HorizontalAlignment="Left"
@@ -42,24 +52,19 @@
                    RadiusX="10"
                    RadiusY="10"
                    Stroke="Black"
-                   StrokeThickness="2                    " />
-
+                   StrokeThickness="1" />
 
         <!--  LOWER RIGHT  -->
-        <Rectangle Width="858"
+        <Rectangle x:Name="rtglLowerRightExterior"
+                   Width="858"
                    Height="465"
-                   Margin="398,205,0,0"
+                   Margin="396,205,0,0"
                    HorizontalAlignment="Left"
                    VerticalAlignment="Top"
                    RadiusX="10"
                    RadiusY="10"
                    Stroke="Black"
-                   StrokeThickness="2" />
-
-        <!--  LABEL  -->
-
-
-
+                   StrokeThickness="1" />
 
 
     </Grid>
